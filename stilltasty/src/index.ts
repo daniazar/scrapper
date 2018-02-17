@@ -29,13 +29,12 @@ class Main{
 
         await page.evaluate(() => {
           let elements = document.getElementsByClassName(this.element);
-          elements.forEach(function(item) {
-            console.log(item.id);
-         });
+          
+         for (var i = 0; i < elements.length; ++i){
+          var cat = elements[i].getElementsByTagName("H1");
+          cat[0].
+         }
 
-         for (var item of elements) {
-          log(item.id);
-      }
           (var element of elements){
             element.click();
 

@@ -1,7 +1,6 @@
 import { launch, Browser } from "puppeteer";
-import * as fs from "fs";
 
-class Main{
+class ElementPage{
   browser : Browser;
   url : string;
   constructor(){
@@ -14,7 +13,6 @@ class Main{
   }
 
   readFile(){
-    let rawdata = fs.readFileSync("url.json");
     this.url = "http://www.stilltasty.com/searchitems/search";
   }
 
