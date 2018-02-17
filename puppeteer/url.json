@@ -1,0 +1,12 @@
+[
+        {"url": "github.com",
+        "name": "github",
+        "fullPage": true,
+        "settings": {
+            
+        },
+        "elements": [
+            "#login_field"
+        ]
+    }
+]

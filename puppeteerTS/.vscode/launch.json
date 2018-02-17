@@ -8,13 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/puppeteerTS/build/index.js"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Scrap",
-            "program": "${workspaceFolder}\\index.js"
+            "program": "${workspaceFolder}\\build/index.js"
         }
     ]
 }

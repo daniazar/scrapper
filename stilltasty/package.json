@@ -1,0 +1,23 @@
+{
+  "name": "puppeteer-scrapper",
+  "version": "1.0.0",
+  "description": "a web scrapper using puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc && node ./build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.0.0",
+    "ts-node": "^4.1.0",
+    "tsd": "^0.6.5",
+    "typescript": "^2.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.6",
+    "@types/puppeteer": "^1.0.0"
+  }
+}
